@@ -1,0 +1,736 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 21, 255, 0.816);
+}
+
+.navbar-logo{
+    width: 1200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tiwtter{
+    width: 30px;
+    color: white;
+}
+
+.facebook{
+    width: 30px;
+    color: white;
+}
+
+.google{
+    width: 30px;
+    color: white;
+}
+
+.navbar-text{
+    width: 900px;   
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.container-box{
+    width: 100vw;
+    height: 550px;
+    background-image: url(elvish.jpg);
+    background-size: cover;
+}
+
+.container{
+    height: 170px;
+    width: 1200px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 150px;   
+}
+
+.systumm-logo{
+    width: 240px;
+    height: 65px;
+    background-image: url(logo2.jpg);
+    background-size: cover;
+    margin-left: -35px;
+}
+
+.anchor-tag a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+.anchor-tag{
+    width: 630px;
+    height: 96px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.profile{
+    width: 150px;
+    height: 96px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #ffffffc4;
+    margin-right: -30px;
+}
+
+/* content part */
+
+.content{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.content-heading{
+    height: 60px;
+    width: 1200px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    color: #000cff;
+    background: linear-gradient(to bottom right,#ff0745,#000cff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.content-box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: -130px;
+}
+
+.main-content-box{
+    width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box1{
+    height: 460px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.image1{
+    height: 380px;
+    width: 240px;
+    background-image: url(box1.jpg);
+    background-size: cover;
+}
+
+.image1-text{
+    position: relative;
+    top: 390px;
+    left: 20px;
+}
+
+.image1-text p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.image1-text a{
+    text-decoration-line: line-through;
+    color: rgba(127, 125, 125, 0.785);
+}
+
+.box2{
+    height: 460px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.image2{
+    height: 380px;
+    width: 260px;
+    background-image: url(box2.jpg);
+    background-size: cover;
+}
+
+.image2-text{
+    position: relative;
+    top: 390px;
+    left: 20px;
+}
+
+.image2-text p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.image2-text a{
+    text-decoration-line: line-through;
+    color: rgba(127, 125, 125, 0.785);
+}
+
+.box3{
+    height: 460px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.image3{
+    height: 380px;
+    width: 260px;
+    background-image: url(box3.jpg);
+    background-size: cover;
+}
+
+.image3-text{
+    position: relative;
+    top: 390px;
+    left: 20px;
+}
+
+.image3-text p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.image3-text a{
+    text-decoration-line: line-through;
+    color: rgba(127, 125, 125, 0.785);
+}
+
+.box4{
+    height: 460px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.image4{
+    height: 380px;
+    width: 260px;
+    background-image: url(box4.jpg);
+    background-size: cover;
+}
+
+.image4-text{
+    position: relative;
+    top: 390px;
+    left: 20px;
+}
+
+.image4-text p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.image4-text a{
+    text-decoration-line: line-through;
+    color: rgba(127, 125, 125, 0.785);
+}
+
+.content-box2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content-box2{
+    width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 210px;
+}
+
+
+.box5{
+    height: 460px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.image5{
+    height: 380px;
+    width: 260px;
+    background-image: url(box5.jpg);
+    background-size: cover;
+}
+
+.image5-text{
+    position: relative;
+    top: 390px;
+    left: 20px;
+}
+
+.image5-text p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.image5-text a{
+    text-decoration-line: line-through;
+    color: rgba(127, 125, 125, 0.785);
+}
+
+.box6{
+    height: 460px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.image6{
+    height: 380px;
+    width: 260px;
+    background-image: url(box6.jpg);
+    background-size: cover;
+}
+
+.image6-text{
+    position: relative;
+    top: 390px;
+    left: 20px;
+}
+
+.image6-text p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.image6-text a{
+    text-decoration-line: line-through;
+    color: rgba(127, 125, 125, 0.785);
+}
+
+.box7{
+    height: 460px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.image7{
+    height: 380px;
+    width: 260px;
+    background-image: url(box7.jpeg);
+    background-size: cover;
+}
+
+.image7-text{
+    position: relative;
+    top: 390px;
+    left: 20px;
+}
+
+.image7-text p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.image7-text a{
+    text-decoration-line: line-through;
+    color: rgba(127, 125, 125, 0.785);
+}
+
+.box8{
+    height: 460px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.image8{
+    height: 380px;
+    width: 260px;
+    background-image: url(box8.jpg);
+    background-size: cover;
+}
+
+.image8-text{
+    position: relative;
+    top: 390px;
+    left: 20px;
+}
+
+.image8-text p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.image8-text a{
+    text-decoration-line: line-through;
+    color: rgba(127, 125, 125, 0.785);
+}
+
+.content2{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 270px;
+}
+
+.content2-heading2{
+    height: 60px;
+    width: 1200px;
+    font-size: 25px;
+    text-align: center;
+    color: #000cff;
+    background: linear-gradient(to bottom right,#ff0745,#000cff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+.image1:hover{
+    background-image: url(hover1.jpg);
+    background-size: cover;
+    transform: skew(5deg);
+}
+
+.image2:hover{
+    background-image: url(hover2.jpg);
+    background-size: cover;
+    transform: skewY(5deg);
+}
+
+.image3:hover{
+    background-image: url(hover3.jpg);
+    background-size: cover;
+    transform: skew(5deg);
+}
+
+.image4:hover{
+    background-image: url(hover4.jpg);
+    background-size: cover;
+    transform: skewY(5deg);
+}
+
+.image5:hover{
+    background-image: url(hover5.jpg);
+    background-size: cover;
+    transform: skew(5deg);
+}
+
+.image6:hover{
+    background-image: url(hover6.jpg);
+    background-size: cover;
+    transform: skewY(5deg);
+}
+
+.image7:hover{
+    background-image: url(hover7.jpg);
+    background-size: cover;
+    transform: skew(5deg);
+}
+
+.image8:hover{
+    background-image: url(hover8.jpg);
+    background-size: cover;
+    transform: skewY(5deg);
+}
+
+.content-box3{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    margin-top:-130px;
+}
+
+.main-content-box3{
+    width: 1200px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    bottom: 210px;
+}
+
+.box9{
+    height: 460px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.image9{
+    height: 380px;
+    width: 260px;
+    background-image: url(box9.jpg);
+    background-size: cover;
+}
+
+.image9-text{
+    position: relative;
+    top: 390px;
+    left: 20px;
+}
+
+.image9-text p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.image9-text a{
+    text-decoration-line: line-through;
+    color: rgba(127, 125, 125, 0.785);
+}
+
+.box10{
+    height: 460px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.image10{
+    height: 380px;
+    width: 260px;
+    background-image: url(box10.jpg);
+    background-size: cover;
+}
+
+.image10-text{
+    position: relative;
+    top: 390px;
+    left: 20px;
+}
+
+.image10-text p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.image10-text a{
+    text-decoration-line: line-through;
+    color: rgba(127, 125, 125, 0.785);
+}
+
+.box11{
+    height: 460px;
+    width: 260px;
+    border-radius: 10px;
+}
+
+.image11{
+    height: 380px;
+    width: 260px;
+    background-image: url(box11.jpg);
+    background-size: cover;
+}
+
+.image11-text{
+    position: relative;
+    top: 390px;
+    left: 20px;
+}
+
+.image11-text p{
+    font-size: 18px;
+    letter-spacing: 3px;
+    line-height: 30px;
+}
+
+.image11-text a{
+    text-decoration-line: line-through;
+    color: rgba(127, 125, 125, 0.785);
+}
+
+.image9:hover{
+    background-image: url(hover9.jpg);
+    background-size: cover;
+    transform: skew(5deg);
+}
+
+.image10:hover{
+    background-image: url(hover10.jpg);
+    background-size: cover;
+    transform: skewY(5deg);
+}
+
+.image11:hover{
+    background-image: url(hover11.jpg);
+    background-size: cover;
+    transform: skew(5deg);
+}
+
+/* footer part  */
+
+.ending{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 200px;
+}
+
+.links{
+    width: 1200px;
+    height: 100px;
+}
+
+.imp-link{
+    text-align: center;
+    font-size: 20px;
+    color: #494949;
+}
+
+.link2{
+    width: 700px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.link1{
+    font-family: sans-serif;
+    position: relative;
+    top: 30px;
+}
+
+.ending1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end-logo{
+    width: 1200px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: -10px;
+    position: relative;
+    top: -120px;
+}
+
+.twitter-end{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(81, 80, 80, 0.656);
+    margin-right: 20px;
+}
+
+.facebook-end{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(81, 80, 80, 0.656);
+    margin-right: 10px;
+}
+.instagram-end{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(81, 80, 80, 0.656);
+    margin-left: 10px;
+}
+
+.ending2{
+    width: 100vw;
+    height: 70px;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    font-size: 1rem;
+}
+
+.ending2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.link2 a:hover{
+    color: #a6a2a2;
+}
+
+.twitter-end:hover{
+    border: 2px solid black;
+}
+.facebook-end:hover{
+    border: 2px solid black;
+}
+.instagram-end:hover{
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
